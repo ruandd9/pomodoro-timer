@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="titlebar">
+        <div class="titlebar-controls">
+            <button id="minimize-button">─</button>
+            <button id="close-button">×</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="timer-container">
+            <div class="timer">
+                <span id="minutes">25</span>:<span id="seconds">00</span>
+            </div>
+            <div class="progress-ring">
+                <svg>
+                    <circle class="progress-ring-circle" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="mode-selector">
+            <button class="mode-button active" data-time="25">Pomodoro</button>
+            <button class="mode-button" data-time="5">Pausa Curta</button>
+            <button class="mode-button" data-time="15">Pausa Longa</button>
+        </div>
+
+        <div class="controls">
+            <button id="start-button" class="control-button">Iniciar</button>
+            <button id="reset-button" class="control-button">Reiniciar</button>
+        </div>
+
+        <div class="test-controls">
+            <button id="test-notification" class="test-button">Testar Notificação</button>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

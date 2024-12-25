@@ -1,0 +1,40 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "A modern Pomodoro Timer application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable",
+    "dist": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.pomodoro.app",
+    "productName": "Pomodoro Timer",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": ["portable"],
+      "icon": "icon.png"
+    },
+    "nsis": {
+      "oneClick": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Pomodoro Timer"
+    }
+  },
+  "keywords": [
+    "pomodoro",
+    "timer",
+    "productivity"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "canvas": "^2.11.2",
+    "electron": "^27.1.0",
+    "electron-builder": "^24.9.1"
+  }
+}

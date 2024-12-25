@@ -93,9 +93,9 @@ Este projeto está sob a licença ISC.
 
 ## 👤 Autor
 
-Ruano Portela
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Seu Nome](https://linkedin.com/in/seu-perfil)
+Ruan Lobo
+- GitHub: [@seu-usuario](https://github.com/ruandd9)
+- LinkedIn: [Seu Nome](https://www.linkedin.com/in/ruan-lobo-b95008308/)
 
 ---
 

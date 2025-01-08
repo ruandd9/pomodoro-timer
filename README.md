@@ -94,8 +94,8 @@ Este projeto está sob a licença ISC.
 ## 👤 Autor
 
 Ruan Lobo
-- GitHub: [@seu-usuario](https://github.com/ruandd9)
-- LinkedIn: [Seu Nome](https://www.linkedin.com/in/ruan-lobo-b95008308/)
+- GitHub: [@ruandd9](https://github.com/ruandd9)
+- LinkedIn: [Ruan Lobo](https://www.linkedin.com/in/ruan-lobo-b95008308/)
 
 ---
 
